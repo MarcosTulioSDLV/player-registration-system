@@ -1,7 +1,7 @@
 # Player Registration System Rest API
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)  ![H2 Database](https://img.shields.io/badge/H2%20Database-018bff?style=for-the-badge&logoColor=white) 
 
-I developed a Rest API for a player registration system. This Rest API was built by using **Spring Boot and Java**. This system allows registering players with their name, email, and phone number (not mandatory), and also assigns them a codename randomly retrieved from two external files available in JSON (vingadores.json) and XML (liga_da_justica.xml) formats, respectively. Each external file contains a list of codenames, and a single codename can only be assigned to one player (although the same codename could exist in both lists). 
+I developed a Rest API for a player registration system. This Rest API was built by using **Spring Boot and Java**. This system allows registering players with their name, email, and phone number (not mandatory), and also automatically assigns them a codename retrieved from two external files available in JSON (vingadores.json) and XML (liga_da_justica.xml) formats, respectively. Each external file contains a list of codenames, and a single codename can only be assigned to one player (although the same codename could exist in both lists). 
 
 This project was inspired by the assessment test available at the following link: https://github.com/uolhost/test-backEnd-Java
 
