@@ -43,7 +43,7 @@ public class PlayerController {
         return ResponseEntity.ok(playerService.getPlayersByGroupType(groupType,pageable));
     }
 
-    //Note: This return a page because the same codename could be duplicated in different grouptypes (but a codename can not be duplicated in the same grouptype).
+    //Note:This return a page because the same codename could be duplicated in different grouptypes (but a codename can not be duplicated in the same grouptype).
     @GetMapping(value = "/players-by-codename/{codename}")
     public ResponseEntity<Page<PlayerResponseDto>> getPlayersByCodename(@PathVariable String codename,
                                                                         @PageableDefault(size = 10) Pageable pageable){
