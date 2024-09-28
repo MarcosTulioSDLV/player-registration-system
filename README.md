@@ -11,13 +11,21 @@ This project was inspired by the assessment test available at the following link
 Below are some business rules that were important for the functioning:
 
 • Allow the registration of players according to the codenames contained in the reference links vingadores.json and liga_da_justica.xml.
+
 • The name and email are mandatory, phone number is optional.
+
 • Persist the registered information in an in-memory database.
+
 • Retrieve, at any time, the list of all registered players with their respective codenames, along with the information of which list the codename was extracted from.
+
 • Prevent the use of the same codename for different users (unless the codename is from different lists).
+
 • Include the chosen codename within the lists vingadores.json or liga_da_justica.xml.
-• It is mandatory to read the codename information from the files on the internet (links below). Attention: It is not allowed to store the codename information locally (in a file, a class, a database, etc.)
+
+• It is mandatory to read the codename information from the files on the internet (links below). Attention: It is not allowed to store the codename information locally (in a file, a class, a database, etc.).
+
 • The player registers their name, email, and phone number, and chooses the desired list (vingadores.json or liga_da_justica.xml).
+
 • The system must check whether the chosen list has available codenames or not. If it does, one of them is selected and assigned to the player. Otherwise, inform that there are no more available codenames in that list.
 
 ## Links to external files (vingadores.json and liga_da_justica.xml)
